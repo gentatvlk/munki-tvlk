@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.munki-tvlk.download.Figma-intel</string>
+	<string>com.github.munki-tvlk.munki.Figma-intel</string>
 	<key>Process</key>
 	<array>
 		<dict>
