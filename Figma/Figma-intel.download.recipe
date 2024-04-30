@@ -14,7 +14,7 @@
 		<key>NAME</key>
 		<string>Figmax86</string>
 		<key>url</key>
-		<string>https://desktop.figma.com/mac/Figma.dmg</string>
+		<string>https://desktop.figma.com/mac/Figma.zip</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.5.1</string>
@@ -26,7 +26,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
-				<string>%NAME%.dmg</string>
+				<string>%NAME%.zip</string>
 			</dict>
 		</dict>
 		<dict>
