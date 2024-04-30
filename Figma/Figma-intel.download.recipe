@@ -8,11 +8,11 @@
 		url for arm64: https://desktop.figma.com/mac-arm/Figma.zip
 	</string>
 	<key>Identifier</key>
-	<string>com.github.dataJAR-recipes.download.Figma</string>
+	<string>com.github.munki-tvlk.download.Figma-intel</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Figma</string>
+		<string>Figmax86</string>
 		<key>url</key>
 		<string>https://desktop.figma.com/mac/Figma.zip</string>
 	</dict>
