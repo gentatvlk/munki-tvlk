@@ -14,7 +14,7 @@
 		<key>NAME</key>
 		<string>Figmaarm64</string>
 		<key>url</key>
-		<string>https://desktop.figma.com/mac-arm/Figma.dmg</string>
+		<string>https://desktop.figma.com/mac-arm/Figma.zip</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.5.1</string>
