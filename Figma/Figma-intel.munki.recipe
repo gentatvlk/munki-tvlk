@@ -60,7 +60,7 @@
 				<string>%MUNKI_REPO_SUBDIR%</string>
 			</dict>
 			<key>Processor</key>
-			<string>MunkiImport</string>
+			<string>MunkiImporter</string>
 		</dict>
 	</array>
 </dict>
