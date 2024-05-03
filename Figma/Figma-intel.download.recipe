@@ -58,9 +58,6 @@
 				<key>strict_verification</key>
 				<true />
 			</dict>
-			<key>Process</key>
-			<array>
-			<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>pkg_path</key>
