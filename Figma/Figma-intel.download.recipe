@@ -58,6 +58,7 @@
 				<key>strict_verification</key>
 				<true />
 			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>
