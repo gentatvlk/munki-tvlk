@@ -10,7 +10,7 @@ Defaults to Professional
 For Intel use: "x86_64" in the SUPPORTED_ARCH variable
 For Apple Silicon use: "arm64" in the SUPPORTED_ARCH variable</string>
     <key>Identifier</key>
-    <string>com.github.munki-tvlk.munki.Burp Suite Professional x86</string>
+    <string>com.github.munki-tvlk.munki.Burp Suite Professional</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
