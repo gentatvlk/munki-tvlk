@@ -13,7 +13,7 @@ To download Intel use: "MacOsx" in the DOWNLOAD_ARCH variable
 To download the Professional title use: "pro" in the DOWNLOAD_TITLE variable
 To download the Community title use: "community" in the DOWNLOAD_TITLE variable</string>
     <key>Identifier</key>
-    <string>com.github.munki-tvlk.download.BurpSuiteProfessionalarm64</string>
+    <string>com.github.munki-tvlk.download.Burp Suite Professional</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
