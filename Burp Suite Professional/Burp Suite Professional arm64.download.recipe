@@ -17,7 +17,7 @@ To download the Community title use: "community" in the DOWNLOAD_TITLE variable<
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Burp Suite Community (Apple)</string>
+        <string>Burp Suite Community Edition (Apple)</string>
         <key>DOWNLOAD_ARCH</key>
         <string>MacOsArm64</string>
         <key>DOWNLOAD_TITLE</key>
