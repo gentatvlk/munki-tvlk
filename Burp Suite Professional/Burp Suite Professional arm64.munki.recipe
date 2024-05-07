@@ -10,15 +10,15 @@ Defaults to Professional
 For Intel use: "x86_64" in the SUPPORTED_ARCH variable
 For Apple Silicon use: "arm64" in the SUPPORTED_ARCH variable</string>
     <key>Identifier</key>
-    <string>com.github.dataJAR-recipes.munki.Burp Suite Professional</string>
+    <string>com.github.munki-tvlk.munki.Burp Suite Professional arm64</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/%NAME%</string>
         <key>NAME</key>
-        <string>BurpSuiteProfessional</string>
+        <string>Burp Suite Community (Apple)</string>
         <key>SUPPORTED_ARCH</key>
-        <string>x86_64</string>
+        <string>arm64</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
@@ -26,13 +26,13 @@ For Apple Silicon use: "arm64" in the SUPPORTED_ARCH variable</string>
                 <string>Testing</string>
             </array>
             <key>description</key>
-            <string>Burp Suite Professional is the web security tester's toolkit of choice.
+            <string>Burp Suite Community is the web security tester's toolkit of choice.
 
 Use it to automate repetitive testing tasks - then dig deeper with its expert-designed manual and semi-automated security testing tools. Burp Suite Professional can help you to test for OWASP Top 10 vulnerabilities - as well as the very latest hacking techniques.</string>
             <key>developer</key>
             <string>PortSwigger Ltd</string>
             <key>display_name</key>
-            <string>Burp Suite Professional x86</string>
+            <string>Burp Suite Community (Apple)</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>supported_architectures</key>
