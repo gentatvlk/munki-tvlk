@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the current release version of Figma and imports into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.munki-tvlk.munki.Figma-intel</string>
+	<string>com.github.munki-tvlk.munki.Figma</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -35,7 +35,7 @@
 <key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.munki-tvlk.download.Figma-intel</string>
+	<string>com.github.dataJAR-recipes.download.Figma</string>
 <key>Process</key>
 	<array>
 		<dict>
