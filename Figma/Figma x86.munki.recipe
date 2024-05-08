@@ -16,7 +16,7 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>production</string>
+				<string>Testing</string>
 			</array>
 			<key>category</key>
 			<string>Applications</string>
