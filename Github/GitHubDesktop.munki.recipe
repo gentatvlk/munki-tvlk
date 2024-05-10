@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of GitHub Desktop and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.homebysix.munki.GitHubDesktop</string>
+	<string>com.github.munki-tvlk.munki.GitHubDesktop</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
