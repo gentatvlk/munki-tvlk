@@ -8,13 +8,13 @@
 		url for arm64: https://desktop.figma.com/mac-arm/Figma.zip
 	</string>
 	<key>Identifier</key>
-	<string>com.github.dataJAR-recipes.munki.Figma</string>
+	<string>com.github.munki-tvlk.munki.Figma</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Figmax86</string>
+		<string>Figma-arm64</string>
 		<key>url</key>
-		<string>https://desktop.figma.com/mac/Figma.zip</string>
+		<string>https://desktop.figma.com/mac-arm/Figma.zip</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.5.1</string>
