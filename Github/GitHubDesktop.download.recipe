@@ -16,7 +16,7 @@ Valid BUILD arguments are:
 		<key>BUILD</key>
 		<string>darwin-arm64</string>
 		<key>NAME</key>
-		<string>GitHub Desktop arm64</string>
+		<string>GitHub Desktop (Apple)</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.2</string>
