@@ -9,9 +9,9 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/GitHub-arm64</string>
+		<string>apps/GitHub Desktop (Apple)</string>
 		<key>NAME</key>
-		<string>GitHub Desktop arm64</string>
+		<string>GitHub Desktop (Apple)</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -23,7 +23,7 @@
 			<key>developer</key>
 			<string>GitHub, Inc.</string>
 			<key>display_name</key>
-			<string>GitHub Desktop arm64</string>
+			<string>GitHub Desktop (Apple)</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>postinstall_script</key>
