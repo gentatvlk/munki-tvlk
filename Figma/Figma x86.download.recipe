@@ -12,7 +12,7 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Figma-x86</string>
+		<string>Figma (Intel)</string>
 		<key>url</key>
 		<string>https://desktop.figma.com/mac/Figma.zip</string>
 	</dict>
