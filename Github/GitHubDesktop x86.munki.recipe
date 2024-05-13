@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of GitHub Desktop and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.munki-tvlk.munki.GitHubDesktop x86</string>
+	<string>com.github.munki-tvlk.munki.GitHubDesktopx86</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -23,7 +23,7 @@
 			<key>developer</key>
 			<string>GitHub, Inc.</string>
 			<key>display_name</key>
-			<string>GitHub Desktop</string>
+			<string>GitHub Desktop (Intel)</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>postinstall_script</key>
@@ -58,7 +58,7 @@ exit 0
 	<key>MinimumVersion</key>
 	<string>1.0.2</string>
 	<key>ParentRecipe</key>
-	<string>com.github.munki-tvlk.download.GitHubDesktop x86</string>
+	<string>com.github.munki-tvlk.download.GitHubDesktopx86</string>
 	<key>Process</key>
 	<array>
 		<dict>
