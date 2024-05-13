@@ -12,7 +12,7 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Figma-arm64</string>
+		<string>Figma (Apple)</string>
 		<key>url</key>
 		<string>https://desktop.figma.com/mac-arm/Figma.zip</string>
 	</dict>
