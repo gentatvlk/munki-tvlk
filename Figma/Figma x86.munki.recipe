@@ -9,9 +9,9 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Figma-x86</string>
+		<string>Figma (Intel)</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Figma-x86</string>
+		<string>apps/Figma (Intel)</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -25,7 +25,7 @@
 			<key>description</key>
 			<string>Design, prototype, and gather feedback all in one place with Figma.</string>
 			<key>display_name</key>
-			<string>Figma x86</string>
+			<string>Figma (Intel)</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
