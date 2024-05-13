@@ -9,7 +9,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/GitHub Desktop (Intel)</string>
+		<string>apps/GitHub</string>
 		<key>NAME</key>
 		<string>GitHub Desktop (Intel)</string>
 		<key>pkginfo</key>
