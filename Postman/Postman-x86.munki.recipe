@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>Postman (Intel)</string>
         <key>MUNKI_REPO_SUBDIR</key>
-        <string>developer</string>
+        <string>apps/Postman (Intel)</string>
         <key>pkginfo</key>
         <dict>
             <key>blocking_applications</key>
