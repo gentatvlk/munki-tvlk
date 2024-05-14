@@ -2,65 +2,61 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Description</key>
-	<string>Downloads the latest Visual Studio Code and imports into Munki.</string>
-	<key>Identifier</key>
-	<string>com.github.munki-tvlk.munki.VSCodex86</string>
-	<key>Input</key>
-	<dict>
-		<key>NAME</key>
-		<string>Visual Studio Code (Intel)</string>
-		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps</string>
-		<key>pkginfo</key>
-		<dict>
-			<key>catalogs</key>
-			<array>
-				<string>Testing</string>
-			</array>
-			<key>description</key>
-			<string></string>
-			<key>display_name</key>
-			<string>Visual Studio Code (Intel)</string>
-			<key>name</key>
-			<string>%NAME%</string>
- 			<key>supported_architectures</key>
-            		<array>
-                	<string>x86_64</string>
-            		</array>
-			<key>unattended_install</key>
-			<true/>
-		</dict>
-	</dict>
-	<key>MinimumVersion</key>
-	<string>0.2.0</string>
-	<key>ParentRecipe</key>
-	<string>com.github.munki-tvlk.download.VSCodex86</string>
-	<key>Process</key>
+    <key>Description</key>
+    <string>Downloads the current release version of Visual Code Studio, builds a package and imports it to Munki.</string>
+    <key>Identifier</key>
+    <string>com.github.munki-tvlk.munki.VSCodex86</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>Visual Code Studio (Intel)</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>apps</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>blocking_applications</key>
+            <array>
+                <string>Visual Code Studio.app</string>
+            </array>
+            <key>catalogs</key>
+            <array>
+                <string>Testing</string>
+            </array>
+            <key>category</key>
+            <string></string>
+            <key>description</key>
+            <string></key>
+            <string>Microsoft</string>
+            <key>display_name</key>
+            <string>Visual Code Studio (Intel)</string>
+            <key>name</key>
+            <string>%NAME%</string>
+            <key>unattended_install</key>
+            <true/>
+            <key>unattended_uninstall</key>
+            <true/>
+            <key>uninstallable</key>
+            <true/>
+        </dict>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.4.3</string>
+    <key>ParentRecipe</key>
+    <string>com.github.munki-tvlk.download.VSCodex86</string>
+    <key>Process</key>
 	<array>
 		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>archive_path</key>
-				<string>%pathname%</string>
-				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
-				<key>purge_destination</key>
-				<true/>
-			</dict>
 			<key>Processor</key>
-			<string>Unarchiver</string>
-		</dict>
-		<dict>
+			<string>DmgCreator</string>
 			<key>Arguments</key>
 			<dict>
+				<key>dmg_megabytes</key>
+				<string>1000</string>
 				<key>dmg_root</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 				<key>dmg_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
 			</dict>
-			<key>Processor</key>
-			<string>DmgCreator</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
