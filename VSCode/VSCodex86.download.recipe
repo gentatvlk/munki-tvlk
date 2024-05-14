@@ -5,13 +5,13 @@
 	<key>Description</key>
 	<string>Downloads latest Visual Studio Code.</string>
 	<key>Identifier</key>
-	<string>com.github.munki-tvlk.download.VSCode</string>
+	<string>com.github.munki-tvlk.download.VSCodex86</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Visual Studio Code (Apple)</string>
+		<string>Visual Studio Code (Intel)</string>
 		<key>DOWNLOAD_URL</key>
-		<string>https://code.visualstudio.com/sha/download?build=stable&os=darwin-arm64</string>
+		<string>https://code.visualstudio.com/sha/download?build=stable&os=darwin</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
