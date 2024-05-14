@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Postman</string>
+        <string>Postman (Apple)</string>
         <key>DOWNLOAD_URL</key>
         <string>https://dl.pstmn.io/download/latest/osx_arm64</string>        
     </dict>
