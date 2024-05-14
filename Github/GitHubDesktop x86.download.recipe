@@ -10,7 +10,7 @@ Valid BUILD arguments are:
 - "darwin-arm64": Downloads GitHub Desktop for Apple Silicon Macs
 	</string>
 	<key>Identifier</key>
-	<string>com.github.munki-tvlk.download.GitHubDesktop x86</string>
+	<string>com.github.munki-tvlk.download.GitHubDesktop-x86</string>
 	<key>Input</key>
 	<dict>
 		<key>BUILD</key>
