@@ -10,6 +10,8 @@
 	<dict>
 		<key>NAME</key>
 		<string>Visual Studio Code (Apple)</string>
+		<key>SUPPORTED_ARCH</key>
+       	 	<string>arm64</string>
 		<key>DOWNLOAD_URL</key>
 		<string>https://code.visualstudio.com/sha/download?build=stable&os=darwin-arm64</string>
 	</dict>
