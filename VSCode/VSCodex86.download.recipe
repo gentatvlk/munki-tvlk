@@ -10,6 +10,8 @@
 	<dict>
 		<key>NAME</key>
 		<string>Visual Studio Code (Intel)</string>
+ 		<key>SUPPORTED_ARCH</key>
+        	<string>x86_64</string>
 		<key>DOWNLOAD_URL</key>
 		<string>https://code.visualstudio.com/sha/download?build=stable&os=darwin</string>
 	</dict>
