@@ -9,7 +9,7 @@ For Apple Silicon set DOWNLOAD_ARCH to "ARM64" and SUPPORTED_ARCH to "arm64" (de
 
 For Intel leave DOWNLOAD_ARCH empty and set SUPPORTED_ARCH to "x86_64"</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.download.Spotify</string>
+    <string>com.github.munki-tvlk.download.Spotifyx86</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
