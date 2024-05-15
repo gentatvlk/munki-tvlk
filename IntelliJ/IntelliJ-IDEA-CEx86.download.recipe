@@ -7,7 +7,7 @@
     <key>Comment</key>
     <string>For the ARCH_TYPE variable use "mac" for Intel, use "macM1" for Apple Silicon</string>
     <key>Identifier</key>
-    <string>com.github.bnpl.autopkg.download.intellijideacex86</string>
+    <string>com.github.munki-tvlk.download.IntelliJ-IDEA-CEx86</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
