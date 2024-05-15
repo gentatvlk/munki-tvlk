@@ -16,7 +16,7 @@ For the ARCH_TYPE variable use
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Rancher Desktop (Intel))</string>
+        <string>Rancher Desktop (Intel)</string>
         <key>ARCH_TYPE</key>
         <string>x86_64</string>
     </dict>
