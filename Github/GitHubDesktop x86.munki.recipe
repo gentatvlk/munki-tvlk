@@ -26,6 +26,10 @@
 			<string>GitHub Desktop (Intel)</string>
 			<key>name</key>
 			<string>%NAME%</string>
+ 			<key>supported_architectures</key>
+            		<array>
+                	<string>x86_64</string>
+            		</array>
 			<key>postinstall_script</key>
 			<string>#!/bin/bash
 
