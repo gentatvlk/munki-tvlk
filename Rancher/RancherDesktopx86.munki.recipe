@@ -12,20 +12,20 @@ For the SUPPORTED_ARCH variable use
 
 </string>
     <key>Identifier</key>
-    <string>com.github.dataJAR-recipes.munki.RancherDesktop</string>
+    <string>com.github.munki-tvlk.munki.RancherDesktopx86</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/%NAME%</string>
         <key>NAME</key>
-        <string>Rancher Desktop</string>
+        <string>Rancher Desktop (Intel)</string>
         <key>SUPPORTED_ARCH</key>
-        <string></string>
+        <string>x86_64</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
             <array>
-                <string>testing</string>
+                <string>Testing</string>
             </array>
             <key>description</key>
             <string>Container Management and Kubernetes on the Desktop</string>
@@ -48,7 +48,7 @@ For the SUPPORTED_ARCH variable use
     <key>MinimumVersion</key>
     <string>1.0.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.dataJAR-recipes.download.RancherDesktop</string>
+    <string>com.github.munki-tvlk.download.RancherDesktopx86</string>
     <key>Process</key>
     <array>
         <dict>
