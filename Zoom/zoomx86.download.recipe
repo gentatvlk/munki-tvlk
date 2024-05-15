@@ -7,11 +7,11 @@
 	<key>Description</key>
 	<string>Downloads the latest version of zoom.us.</string>
 	<key>Identifier</key>
-	<string>https://github.com/gentatvlk/munki-tvlk.git.download.zoom.us</string>
+	<string>com.github.munki-tvlk.download.zoomx86</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>zoom.us</string>
+		<string>Zoom (Intel)</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
