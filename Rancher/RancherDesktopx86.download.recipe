@@ -12,13 +12,13 @@ For the ARCH_TYPE variable use
 
 </string>
     <key>Identifier</key>
-    <string>com.github.dataJAR-recipes.download.RancherDesktop</string>
+    <string>com.github.munki-tvlk.download.RancherDesktopx86</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Rancher Desktop</string>
+        <string>Rancher Desktop (Intel)</string>
         <key>ARCH_TYPE</key>
-        <string>aarch64</string>
+        <string>x86_64</string>
     </dict>
     <key>MinimumVersion</key>
     <string>1.0.0</string>
