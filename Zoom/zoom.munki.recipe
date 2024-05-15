@@ -40,7 +40,7 @@
 			<key>developer</key>
 			<string>Zoom Video Communications, Inc.</string>
 			<key>display_name</key>
-			<string>zoom.us</string>
+			<string>Zoom (Apple)</string>
 			<key>name</key>
 			<string>%NAME%</string>
    			<key>supported_architectures</key>
