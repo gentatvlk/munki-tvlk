@@ -32,7 +32,7 @@ For the SUPPORTED_ARCH variable use
             <key>developer</key>
             <string>SUSE LLC</string>
             <key>display_name</key>
-            <string>Rancher Desktop</string>
+            <string>Rancher Desktop (Apple)</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>supported_architectures</key>
