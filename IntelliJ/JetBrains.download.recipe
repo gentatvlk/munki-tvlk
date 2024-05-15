@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the current release version of JetBrains product.</string>
     <key>Identifier</key>
-    <string>com.github.bnpl.autopkg.download.jetbrains</string>
+    <string>com.github.munki-tvlk.download.jetbrains</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
