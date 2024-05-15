@@ -17,8 +17,6 @@ For the ARCH_TYPE variable use
     <dict>
         <key>NAME</key>
         <string>Rancher Desktop (Intel)</string>
-        <key>ARCH_TYPE</key>
-        <string>x86_64</string>
     </dict>
     <key>MinimumVersion</key>
     <string>1.0.0</string>
@@ -26,15 +24,12 @@ For the ARCH_TYPE variable use
     <array>
         <dict>
             <key>Arguments</key>
-            <dict>
-                <key>asset_regex</key>
-                <string>Rancher\.Desktop-([0-9]+(\.[0-9]+)+)\.%ARCH_TYPE%\.dmg$</string>
-                <key>github_repo</key>
-                <string>https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.10.0/Rancher.Desktop-1.10.0.x86_64.dmg</string>
-            </dict>
-            <key>Processor</key>
-            <string>GitHubReleasesInfoProvider</string>
-        </dict>
+			<dict>
+				<key>filename</key>
+				<string>%NAME%.pkg</string>
+				<key>url</key>
+				<string>https://zoom.us/client/6.0.2.33403/zoomusInstallerFull.pkg?archType=arm64</string>
+			</dict>
         <dict>
             <key>Arguments</key>
             <dict>
