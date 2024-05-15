@@ -7,7 +7,7 @@
     <key>Comment</key>
     <string>For the SUPPORTED_ARCH variable use "x86_64" for Intel, use "arm64" for Apple Silicon</string>
     <key>Identifier</key>
-    <string>com.github.bnpl.autopkg.munki.intellijideace</string>
+    <string>com.github.munki-tvlk.munki.intellijideacex86</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
