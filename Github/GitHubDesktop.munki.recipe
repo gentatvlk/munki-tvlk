@@ -26,6 +26,10 @@
 			<string>GitHub Desktop (Apple)</string>
 			<key>name</key>
 			<string>%NAME%</string>
+ 			<key>supported_architectures</key>
+            		<array>
+                	<string>arm64</string>
+            		</array>
 			<key>postinstall_script</key>
 			<string>#!/bin/bash
 
