@@ -12,7 +12,7 @@ See the following URLs for more info:
     http://ftp.mozilla.org/pub/firefox/releases/latest-esr/README.txt
     http://ftp.mozilla.org/pub/firefox/releases/latest-beta/README.txt</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.munki.firefox-rc-en_US</string>
+    <string>com.github.munki-tvlk.munki.firefox</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
@@ -23,7 +23,7 @@ See the following URLs for more info:
         <dict>
             <key>catalogs</key>
             <array>
-                <string>testing</string>
+                <string>Testing</string>
             </array>
             <key>description</key>
             <string>Mozilla Firefox is a free and open source web browser.</string>
@@ -38,7 +38,7 @@ See the following URLs for more info:
     <key>MinimumVersion</key>
     <string>2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.firefox-rc-en_US</string>
+    <string>com.github.munki-tvlk.download.firefox</string>
     <key>Process</key>
     <array>
         <dict>
