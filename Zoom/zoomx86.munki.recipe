@@ -33,7 +33,7 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>Testing</string>
+				<string>Update</string>
 			</array>
 			<key>description</key>
 			<string>This app is the Mac client for cloud-based HD video meeting service Zoom.us.</string>
