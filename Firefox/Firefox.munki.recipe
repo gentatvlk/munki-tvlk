@@ -23,7 +23,7 @@ See the following URLs for more info:
         <dict>
             <key>catalogs</key>
             <array>
-                <string>Testing</string>
+                <string>Update</string>
             </array>
             <key>description</key>
             <string>Mozilla Firefox is a free and open source web browser.</string>
