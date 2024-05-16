@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest &apos;Slack&apos; and imports into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.munki-tvlk.munki.slack</string>
+	<string>com.github.munki-tvlk.munki.slick</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.munki-tvlk.download.slack</string>
+	<string>com.github.munki-tvlk.download.slick</string>
 	<key>Process</key>
 	<array>
 		<dict>
