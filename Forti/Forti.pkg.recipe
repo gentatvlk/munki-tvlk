@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Forticlient VPN 6 disk image and builds a package</string>
     <key>Identifier</key>
-    <string>com.github.dataJAR-recipes.pkg.forticlientvpn</string>
+    <string>com.github.munki-tvlk.pkg.Forti</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
