@@ -7,11 +7,11 @@
 	<key>Description</key>
 	<string>Downloads the latest Adobe Acrobat Reader.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg.download.AdobeReader</string>
+	<string>com.github.munki-tvlk.download.AdobeReader</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>AdobeReader</string>
+		<string>Acrobat Reader</string>
 		<key>OS_VERSION</key>
 		<string>Mac OS 12.0</string>
 	</dict>
