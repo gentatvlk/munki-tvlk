@@ -14,14 +14,14 @@ For Apple Silicon use: "arm64" in the SUPPORTED_ARCH variable</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/%NAME%</string>
         <key>NAME</key>
-        <string>MongoDBCompass</string>
+        <string>MongoDB Compass (Intel)</string>
         <key>SUPPORTED_ARCH</key>
-        <string></string>
+        <string>x86_64</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
             <array>
-                <string>testing</string>
+                <string>Testing</string>
             </array>
             <key>description</key>
             <string>Compass. The GUI for MongoDB.
@@ -30,7 +30,7 @@ Compass is an interactive tool for querying, optimizing, and analyzing your Mong
             <key>developer</key>
             <string>MongoDB, Inc</string>
             <key>display_name</key>
-            <string>MongoDB Compass</string>
+            <string>MongoDB Compass (Intel)</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>supported_architectures</key>
@@ -46,7 +46,7 @@ Compass is an interactive tool for querying, optimizing, and analyzing your Mong
     <key>MinimumVersion</key>
     <string>1.1</string>
     <key>ParentRecipe</key>
-    <string>com.github.dataJAR-recipes.download.MongoDB Compass</string>
+    <string>com.github.munki-tvlk.download.MongoDBx86</string>
     <key>Process</key>
     <array>
         <dict>
