@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>ForticlientVPN6</string>
         <key>SEARCH_URL</key>
-        <string>https://www.fortinet.com/support/product-downloads</string>
+        <string>https://filestore.fortinet.com/forticlient/downloads/FortiClientVPN_OnlineInstaller.dmg</string>
 		<key>USER_AGENT</key>
 		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9</string>
     </dict>
