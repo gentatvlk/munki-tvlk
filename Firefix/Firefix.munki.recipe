@@ -12,7 +12,7 @@ See the following URLs for more info:
     http://ftp.mozilla.org/pub/firefox/releases/latest-esr/README.txt
     http://ftp.mozilla.org/pub/firefox/releases/latest-beta/README.txt</string>
     <key>Identifier</key>
-    <string>com.github.munki-tvlk.munki.firefox</string>
+    <string>com.github.munki-tvlk.munki.firefix</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
@@ -38,7 +38,7 @@ See the following URLs for more info:
     <key>MinimumVersion</key>
     <string>2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.munki-tvlk.download.firefox</string>
+    <string>com.github.munki-tvlk.download.firefix</string>
     <key>Process</key>
     <array>
         <dict>
