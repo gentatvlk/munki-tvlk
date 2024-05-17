@@ -8,11 +8,11 @@
 To download the Intel version use "x64" in DOWNLOAD_TYPE
 To download the Apple Silicon version use "arm64" in DOWNLOAD_TYPE</string>
     <key>Identifier</key>
-    <string>com.github.dataJAR-recipes.download.MongoDB Compass</string>
+    <string>com.github.munki-tvlk.download.MongoDBx86</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>MongoDB Compass</string>
+        <string>MongoDB Compass (Intel)</string>
         <key>DOWNLOAD_TYPE</key>
         <string>x64</string>
     </dict>
