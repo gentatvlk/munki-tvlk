@@ -14,13 +14,13 @@ Additional notes:
 preflight script, looking to find a user's trash folder to copy the .app into.
 </string>
 	<key>Identifier</key>
-	<string>com.github.autopkg.munki.AdobeReader</string>
+	<string>com.github.munki-tvlk.munki.AdobeReader</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/Adobe</string>
 		<key>NAME</key>
-		<string>AdobeReader</string>
+		<string>Acrobat Reader</string>
 		<key>OS_VERSION</key>
 		<string>Mac OS 12.0</string>
 		<key>pkginfo</key>
@@ -35,7 +35,7 @@ preflight script, looking to find a user's trash folder to copy the .app into.
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>Update</string>
 			</array>
 			<key>description</key>
 			<string>Adobe® Reader® is the global standard for reliably viewing, printing, and commenting on PDF documents. It's the only PDF file viewer that can open and interact with all types of PDF content, including forms and multimedia.</string>
@@ -62,7 +62,7 @@ exit 0
 	<key>MinimumVersion</key>
 	<string>1.4</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.download.AdobeReader</string>
+	<string>com.github.munki-tvlk.download.AdobeReader</string>
 	<key>Process</key>
 	<array>
 		<dict>
