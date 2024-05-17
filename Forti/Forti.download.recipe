@@ -19,24 +19,6 @@
     <string>1.1</string>
     <key>Process</key>
     <array>
-        <dict>
-            <key>Processor</key>
-            <string>DeprecationWarning</string>
-            <key>Arguments</key>
-            <dict>
-                <key>warning_message</key>
-                <string>FortiClient is only available via an Online Installer app, can no longer be mass deployed.</string>
-            </dict>
-        </dict>
-        <dict>   
-            <key>Processor</key>   
-            <string>StopProcessingIf</string>   
-            <key>Arguments</key>   
-            <dict>   
-                <key>predicate</key>   
-                <string>TRUEPREDICATE</string>
-            </dict>
-        </dict>
 		<dict>
 			<key>Processor</key>
 			<string>URLTextSearcher</string>
