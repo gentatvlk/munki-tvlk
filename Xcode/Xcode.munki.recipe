@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!-- Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved -->
+<dict>
+  <key>Description</key>
+  <string>Download, extract, and import Xcode into Munki. You must override the APPLE_ID and PASSWORD.</string>
+  <key>Identifier</key>
+  <string>com.facebook.autopkg.xcode.munki</string>
+  <key>Input</key>
+  <dict>
+    <key>NAME</key>
+    <string>Xcode</string>
+    <key>USE_VERSIONED_FILENAME</key>
+    <string></string>
+    <key>FILENAME_SUFFIX</key>
+    <string></string>
+    <key>MUNKI_REPO_SUBDIR</key>
+    <string>apps/apple/xcode/</string>
+    <key>ICON_NAME</key>
+    <string>Xcode.png</string>
+    <key>pkginfo</key>
+    <dict>
+      <key>catalogs</key>
+      <array>
+        <string>testing</string>
+      </array>
+      <key>description</key>
+      <string>Xcode</string>
+      <key>display_name</key>
+      <string>%NAME%</string>
+      <key>name</key>
+      <string>%NAME%</string>
+      <key>postinstall_script</key>
+      <string>#!/bin/sh
+# Ensure everyone is a member of "developer" group
+/usr/sbin/dseditgroup -o edit -a everyone -t group _developer
+# Enable Developer Mode
+/usr/sbin/DevToolsSecurity -enable
+# Accept the license
+/Applications/%fixed_filename%/Contents/Developer/usr/bin/xcodebuild -license accept
+# Install embedded packages
+for PKG in `/bin/ls /Applications/%fixed_filename%/Contents/Resources/Packages/*.pkg` ; do
+  /usr/sbin/installer -pkg "$PKG" -target /
+done
+      </string>
+      <key>unattended_install</key>
+      <true/>
+    </dict>
+  </dict>
+  <key>MinimumVersion</key>
+  <string>1.0.4</string>
+  <key>ParentRecipe</key>
+  <string>com.facebook.autopkg.xcode.extract</string>
+        <key>Process</key>
+        <array>
+            <dict>
+                <key>Processor</key>
+                <string>DeprecationWarning</string>
+                <key>Arguments</key>
+                <dict>
+                    <key>warning_message</key>
+                    <string>These recipes have moved into nmcspadden-recipes, and the identifiers have changed. Please update your overrides!</string>
+                </dict>
+            </dict>
+        </array>
+</dict>
+</plist>

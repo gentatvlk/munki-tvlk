@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <!-- Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved -->
+  <dict>
+    <key>Description</key>
+  <string>Download Xcode from the Apple dev portal. You must override the APPLE_ID and PASSWORD_FILE. BETA must either be empty for stable releases or set to "Beta" in order to match Xcode betas.</string>
+    <key>Identifier</key>
+    <string>com.facebook.autopkg.xcode.downloader</string>
+    <key>Input</key>
+    <dict>
+      <key>NAME</key>
+      <string>Xcode</string>
+      <key>APPLE_ID</key>
+      <string>dev@domain.com</string>
+      <key>PASSWORD_FILE</key>
+      <string>secret.txt</string>
+      <key>BETA</key>
+      <string></string>
+      <key>PATTERN</key>
+      <string>(.*\/Xcode_.*\/Xcode.*.xip)</string>
+      <key>NOSKIP</key>
+      <string></string>
+      <key>VERSION_EMIT_PATH</key>
+      <string>%RECIPE_CACHE_DIR%/xcode_tag</string>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>1.0.4</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Processor</key>
+            <string>DeprecationWarning</string>
+            <key>Arguments</key>
+            <dict>
+                <key>warning_message</key>
+                <string>These recipes have moved into nmcspadden-recipes, and the identifiers have changed. Please update your overrides!</string>
+            </dict>
+        </dict>
+    </array>
+  </dict>
+</plist>
