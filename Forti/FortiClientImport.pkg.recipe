@@ -14,13 +14,13 @@ To use this recipe:
 
 More valuable when used as a parent recipe to bring FortiClient into munki, Jamf, etc.</string>
     <key>Identifier</key>
-    <string>com.github.apizz.pkg.FortiClientImport</string>
+    <string>com.github.munki-tvlk.pkg.FortiClientImport</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>FortiClient</string>
+        <string>FortiClient TEST</string>
         <key>PATH</key>
-        <string>/path/to/FortiClientDMG/folder</string>
+        <string>FortiClientVPNSetup_7.2.4.0850.dmg</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
