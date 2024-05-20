@@ -7,7 +7,7 @@
 
 Set the DERIVE_MIN_OS variable to a non-empty string to set the minimum_os_version via MunkiInstallsItemsCreator.</string>
     <key>Identifier</key>
-    <string>com.github.gmarnin.munki.tableau-desktop</string>
+    <string>com.github.munki-tvlk.munki.tableau</string>
     <key>Input</key>
     <dict>
         <key>DERIVE_MIN_OS</key>
@@ -15,7 +15,7 @@ Set the DERIVE_MIN_OS variable to a non-empty string to set the minimum_os_versi
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/Tableau</string>
         <key>NAME</key>
-        <string>TableauDesktop</string>
+        <string>Tableau Desktop</string>
         <key>pkg_ids_set_optional_true</key>
         <array>
             <string>com.tableausoftware.desktopShortcut</string>
@@ -28,7 +28,7 @@ Set the DERIVE_MIN_OS variable to a non-empty string to set the minimum_os_versi
             </array>
             <key>catalogs</key>
             <array>
-                <string>testing</string>
+                <string>Testing</string>
             </array>
             <key>description</key>
             <string>Tableau Desktop is data visualization software that lets you see and understand data in minutes.</string>
@@ -110,7 +110,7 @@ Set the DERIVE_MIN_OS variable to a non-empty string to set the minimum_os_versi
     <key>MinimumVersion</key>
     <string>2.7</string>
     <key>ParentRecipe</key>
-    <string>com.github.gmarnin.download.tableau-desktop</string>
+    <string>com.github.munki-tvlk.download.tableau</string>
     <key>Process</key>
     <array>
         <dict>
