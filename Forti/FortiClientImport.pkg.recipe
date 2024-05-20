@@ -85,12 +85,6 @@ More valuable when used as a parent recipe to bring FortiClient into munki, Jamf
             <dict>
                 <key>destination_path</key>
                 <string>%RECIPE_CACHE_DIR%/unarchive</string>
-                <key>pkg_payload_path</key>
-                <string>%RECIPE_CACHE_DIR%/unpack/fctconsole.pkg/Payload</string>
-            </dict>
-            <key>Processor</key>
-            <string>PkgPayloadUnpacker</string>
-        </dict>
         <dict>
             <key>Comment</key>
             <string>Unarchive compressed FortiClient app</string>
