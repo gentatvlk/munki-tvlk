@@ -12,7 +12,7 @@ To use this recipe:
 3) Copy the downloaded DMG onto your Mac running autopkg in the folder specified in the PATH variable. Don't include a trailing '/'.
 4) Run the recipe.</string>
     <key>Identifier</key>
-    <string>com.github.apizz.munki.FortiClientImport</string>
+    <string>com.github.munki-tvlk.munki.FortiClientImport</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_CATEGORY</key>
@@ -20,12 +20,12 @@ To use this recipe:
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/forticlient</string>
         <key>NAME</key>
-        <string>FortiClient</string>
+        <string>FortiClient TEST</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
             <array>
-                <string>testing</string>
+                <string>Testing</string>
             </array>
             <key>category</key>
             <string>%MUNKI_CATEGORY%</string>
@@ -44,7 +44,7 @@ To use this recipe:
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.apizz.pkg.FortiClientImport</string>
+    <string>com.github.munki-tvlk.pkg.FortiClientImport</string>
     <key>Process</key>
     <array>
         <dict>
