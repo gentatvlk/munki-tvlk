@@ -33,6 +33,7 @@
 	        <key>supported_architectures</key>
             <array>
             <string>arm64</string>
+		</array>
             <key>unattended_install</key>
             <true/>
         </dict>
