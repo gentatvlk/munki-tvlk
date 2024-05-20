@@ -5,11 +5,11 @@
     <key>Description</key>
     <string>Downloads latest version of DBeaver Community Edition.</string>
     <key>Identifier</key>
-    <string>com.github.peshay.download.DBeaverCE</string>
+    <string>com.github.munki-tvlk.download.DBeaverCE</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>DBeaverCE</string>
+        <string>DBeaver Community (Apple)</string>
         
 <!--SELECT YOUR OS VERSION AND USE IT IN YOUR OVERRIDE
 	"installer" for MAC OS X Pkg installer
@@ -20,7 +20,7 @@
 -->
 
 		<key>os</key>
-		<string></string>
+		<string>macos-aarch64</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.6.1</string>
