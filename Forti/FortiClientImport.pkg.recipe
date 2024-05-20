@@ -20,7 +20,7 @@ More valuable when used as a parent recipe to bring FortiClient into munki, Jamf
         <key>NAME</key>
         <string>FortiClient TEST</string>
         <key>PATH</key>
-        <string>Forti/FortiClientVPNSetup_7.2.4.0850.dmg</string>
+        <string>Forti</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
