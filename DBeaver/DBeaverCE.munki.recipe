@@ -15,7 +15,7 @@
         <key>NAME</key>
         <string>DBeaver Community (Apple)</string>
         <key>os</key>
-        <string>macos</string>
+        <string>macos-aarch64</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
