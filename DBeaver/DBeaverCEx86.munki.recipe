@@ -5,31 +5,34 @@
     <key>Description</key>
     <string>Imports DBeaver Community Edition into Munki.</string>
     <key>Identifier</key>
-    <string>com.github.dataJAR-recipes.munki.DBeaver Community Edition</string>
+    <string>com.github.munki-tvlk.munki.DBeaverCEx86</string>
     <key>Input</key>
     <dict>
         <key>APP_FILENAME</key>
-        <string>DBeaver</string>
+        <string>DBeaver Community (Intel)</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/%NAME%</string>
         <key>NAME</key>
-        <string>DBeaver Community Edition</string>
+        <string>DBeaver Community (Intel)</string>
         <key>os</key>
-        <string>macos</string>
+        <string>macos-x86_64</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
             <array>
-                <string>testing</string>
+                <string>Testing</string>
             </array>
             <key>description</key>
             <string>Free multi-platform database tool for developers, SQL programmers, database administrators and analysts. Supports all popular databases: MySQL, PostgreSQL, MariaDB, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird, Derby, etc.</string>
             <key>developer</key>
             <string>DBeaver Corp</string>
             <key>display_name</key>
-            <string>DBeaver Community Edition</string>
+            <string>DBeaver Community (Intel)</string>
             <key>name</key>
             <string>%NAME%</string>
+            <key>supported_architectures</key>
+            <array>
+            <string>x86_64</string>
             <key>unattended_install</key>
             <true/>
         </dict>
@@ -37,7 +40,7 @@
     <key>MinimumVersion</key>
     <string>1.0.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.peshay.download.DBeaverCE</string>
+    <string>com.github.munki-tvlk.download.DBeaverCEx86</string>
     <key>Process</key>
     <array>
         <dict>
