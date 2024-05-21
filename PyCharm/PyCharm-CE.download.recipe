@@ -7,13 +7,13 @@
     <key>Comment</key>
     <string>For the ARCH_TYPE variable use "mac" for Intel, use "macM1" for Apple Silicon</string>
     <key>Identifier</key>
-    <string>com.github.bnpl.autopkg.download.pycharmce</string>
+    <string>com.github.munki-tvlk.download.pycharm-ce</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>PyCharm Community Edition</string>
         <key>ARCH_TYPE</key>
-        <string>mac</string>
+        <string>macM1</string>
         <key>PROD_CODE</key>
         <string>PCC</string>
         <key>CSV_REQ</key>
