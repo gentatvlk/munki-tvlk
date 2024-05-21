@@ -11,7 +11,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>PyCharm Community Edition</string>
+        <string>PyCharm (Apple)</string>
         <key>ARCH_TYPE</key>
         <string>macM1</string>
         <key>PROD_CODE</key>
@@ -22,6 +22,6 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.bnpl.autopkg.download.jetbrains</string>
+    <string>com.github.munki-tvlk.download.jetbrains</string>
 </dict>
 </plist>
