@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of LastPass.</string>
 	<key>Identifier</key>
-	<string>com.github.jelockwood.recipes.download.LastPass</string>
+	<string>com.github.munki-tvlk.download.LastPass</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
