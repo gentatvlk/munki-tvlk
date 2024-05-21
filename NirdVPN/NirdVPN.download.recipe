@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of NordVPN.</string>
 	<key>Identifier</key>
-	<string>com.github.munki-tvlk.download.NordVPN</string>
+	<string>com.github.munki-tvlk.download.NirdVPN</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
