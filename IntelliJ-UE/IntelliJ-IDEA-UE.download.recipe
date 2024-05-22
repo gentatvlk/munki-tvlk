@@ -11,7 +11,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>IntelliJ IDEA Ultimate Edition</string>
+        <string>IntelliJ IDEA Ultimate Edition (Apple)</string>
         <key>ARCH_TYPE</key>
         <string>macM1</string>
         <key>PROD_CODE</key>
