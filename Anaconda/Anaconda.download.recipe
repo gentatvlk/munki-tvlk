@@ -50,6 +50,16 @@ to chose between 'sh' or 'pkg'.</string>
                 <string>%SEARCH_PATTERN%</string> 
             </dict>
         </dict>
+        <dict>
+            <key>Processor</key>
+            <string>URLDownloader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>url</key>
+                <string>%url%</string>
+                <key>filename</key>
+                <string>%NAME%%PYTHON_MAJOR_VERSION%-%version%.%INSTALLER_TYPE%</string>
+            </dict>
         </dict>
         <dict>
             <key>Processor</key>
