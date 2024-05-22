@@ -10,7 +10,7 @@ the pkg receipts are all 0.
 
 This is accomplished via our own custom processor (JSONFileReader) and an installcheck_script</string>
     <key>Identifier</key>
-    <string>com.github.munki-tvlk.munki.Anaconda 3</string>
+    <string>com.github.munki-tvlk.munki.Anaconda</string>
     <key>Input</key>
     <dict>
         <key>INSTALLER_TYPE</key>
