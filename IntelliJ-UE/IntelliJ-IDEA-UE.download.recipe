@@ -7,13 +7,13 @@
     <key>Comment</key>
     <string>For the ARCH_TYPE variable use "mac" for Intel, use "macM1" for Apple Silicon</string>
     <key>Identifier</key>
-    <string>com.github.bnpl.autopkg.download.intellijideaue</string>
+    <string>com.github.munki-tvlk.download.intellijideaue</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>IntelliJ IDEA Ultimate Edition</string>
         <key>ARCH_TYPE</key>
-        <string>mac</string>
+        <string>macM1</string>
         <key>PROD_CODE</key>
         <string>IIU</string>
         <key>CSV_REQ</key>
@@ -22,6 +22,6 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.bnpl.autopkg.download.jetbrains</string>
+    <string>com.github.munki-tvlk.download.jetbrains</string>
 </dict>
 </plist>
