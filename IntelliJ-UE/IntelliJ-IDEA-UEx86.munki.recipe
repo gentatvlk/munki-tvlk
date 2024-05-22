@@ -7,11 +7,11 @@
     <key>Comment</key>
     <string>For the SUPPORTED_ARCH variable use "x86_64" for Intel, use "arm64" for Apple Silicon</string>
     <key>Identifier</key>
-    <string>com.github.bnpl.autopkg.munki.intellijideaue</string>
+    <string>com.github.bnpl.autopkg.munki.intellijideauex86</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>IntelliJ IDEA Ultimate Edition</string>
+        <string>IntelliJ IDEA Ultimate Edition (Intel)</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/jetbrains</string>
         <key>SUPPORTED_ARCH</key>
@@ -20,7 +20,7 @@
         <dict>
             <key>catalogs</key>
             <array>
-                <string>testing</string>
+                <string>Testing</string>
             </array>
             <key>category</key>
             <string>Developer Tools</string>
@@ -31,7 +31,7 @@ https://www.jetbrains.com/idea</string>
             <key>developer</key>
             <string>JetBrains</string>
             <key>display_name</key>
-            <string>IntelliJ IDEA Ultimate Edition</string>
+            <string>IntelliJ IDEA Ultimate Edition (Intel)</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>supported_architectures</key>
@@ -49,7 +49,7 @@ https://www.jetbrains.com/idea</string>
     <key>MinimumVersion</key>
     <string>0.4.3</string>
     <key>ParentRecipe</key>
-    <string>com.github.bnpl.autopkg.download.intellijideaue</string>
+    <string>com.github.munki-tvlk.download.intellijideauex86</string>
     <key>Process</key>
     <array>
         <dict>
