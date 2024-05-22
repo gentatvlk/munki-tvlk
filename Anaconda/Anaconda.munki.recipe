@@ -143,7 +143,7 @@ rm -rf "/Applications/Anaconda-Navigator.app"</string>
         </dict>
         <dict>
             <key>Processor</key>
-            <string>com.github.munki-tvlk.JSONFileReader</string>
+            <string>com.github.dataJAR-recipes.Shared Processors/JSONFileReade</string>
             <key>Arguments</key>
             <dict>
                 <key>json_key</key>
