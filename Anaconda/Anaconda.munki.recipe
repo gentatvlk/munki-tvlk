@@ -10,7 +10,7 @@ the pkg receipts are all 0.
 
 This is accomplished via our own custom processor (JSONFileReader) and an installcheck_script</string>
     <key>Identifier</key>
-    <string>com.github.dataJAR-recipes.munki.Anaconda 3</string>
+    <string>com.github.munki-tvlk.munki.Anaconda 3</string>
     <key>Input</key>
     <dict>
         <key>INSTALLER_TYPE</key>
@@ -18,7 +18,7 @@ This is accomplished via our own custom processor (JSONFileReader) and an instal
         <key>PYTHON_MAJOR_VERSION</key>
         <string>3</string>
         <key>MUNKI_CATALOGS</key>
-        <string>testing</string>
+        <string>Testing</string>
         <key>MUNKI_CATEGORY</key>
         <string>Science</string>
         <key>MUNKI_DEVELOPER</key>
@@ -26,9 +26,9 @@ This is accomplished via our own custom processor (JSONFileReader) and an instal
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/%NAME%/</string>
         <key>NAME</key>
-        <string>Anaconda3</string>
+        <string>Anaconda (Apple)</string>
         <key>DISPLAY_NAME</key>
-        <string>Anaconda 3</string>
+        <string>Anaconda (Apple)</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
@@ -57,7 +57,7 @@ rm -rf "/Applications/Anaconda-Navigator.app"</string>
         </dict>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.hansen-m.download.Anaconda</string>
+    <string>com.github.munki-tvlk.download.Anaconda</string>
     <key>Process</key>
     <array>
         <dict>
@@ -143,7 +143,7 @@ rm -rf "/Applications/Anaconda-Navigator.app"</string>
         </dict>
         <dict>
             <key>Processor</key>
-            <string>com.github.dataJAR-recipes.Shared Processors/JSONFileReader</string>
+            <string>com.github.munki-tvlk.Shared Processors/JSONFileReader</string>
             <key>Arguments</key>
             <dict>
                 <key>json_key</key>
