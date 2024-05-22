@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the current release version of Anaconda and imports it into Munki.</string>
+	<key>Identifier</key>
+	<string>org.croptrust.autopkg.munki.anaconda</string>
+	<key>Input</key>
+	<dict>
+		<key>INSTALLER_TYPE</key>
+		<string>pkg</string>
+		<key>MUNKI_CATALOGS</key>
+		<string>testing</string>
+		<key>MUNKI_CATEGORY</key>
+		<string>Scientific</string>
+		<key>MUNKI_DEVELOPER</key>
+		<string>Continuum</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>Anaconda</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>%MUNKI_CATALOGS%</string>
+			</array>
+			<key>category</key>
+			<string>%MUNKI_CATEGORY%</string>
+			<key>description</key>
+			<string>Anaconda is the leading open data science platform powered by Python. The open source version of Anaconda is a high performance distribution of Python and R and includes over 100 of the most popular Python, R and Scala packages for data science.</string>
+			<key>developer</key>
+			<string>%MUNKI_DEVELOPER%</string>
+			<key>display_name</key>
+			<string>%NAME%</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>postinstall_script</key>
+			<string>#!/bin/bash
+# Set correct file permissions
+if [[ -d "/anaconda" ]];then
+	chmod -R +r "/anaconda"
+fi
+exit 0
+			</string>
+			<key>postuninstall_script</key>
+			<string>#!/bin/bash
+# Cleanup
+rm "/Applications/Anaconda-Navigator.app"
+rm -rf "/anaconda"
+exit 0
+			</string>
+			<key>uninstall_method</key>
+			<string>removepackages</string>
+			<key>uninstallable</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>org.croptrust.autopkg.download.anaconda</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>additional_pkginfo</key>
+				<dict>
+					<key>version</key>
+					<string>%version%</string>
+				</dict>
+			</dict>
+			<key>Processor</key>
+			<string>MunkiPkginfoMerger</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>pkg_path</key>
+				<string>%pathname%</string>
+				<key>repo_subdirectory</key>
+				<string>%MUNKI_REPO_SUBDIR%</string>
+			</dict>
+			<key>Processor</key>
+			<string>MunkiImporter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
