@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Download and unpack the latest version of Proxyman, a high-performance macOS app, which enables developers to view HTTP/HTTPS requests from apps and domains.</string>
     <key>Identifier</key>
-    <string>com.github.zentralpro.download.proxyman</string>
+    <string>com.github.munki-tvlk.download.proxyman</string>
     <key>MinimumVersion</key>
     <string>1.0.0</string>
     <key>Input</key>
