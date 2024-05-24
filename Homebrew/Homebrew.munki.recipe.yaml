@@ -8,7 +8,7 @@ Input:
   MUNKI_REPO_SUBDIR: apps/Homebrew
   pkginfo:
     catalogs:
-      - testing
+      - Testing
     description: The missing package manager for macOS.
     developer: Homebrew
     display_name: "%NAME%"
