@@ -1,5 +1,5 @@
 Description: Download the latest Homebrew package version from GitHub.
-Identifier: com.github.nstrauss.download.Homebrew
+Identifier: com.github.munki-tvlk.download.Homebrew
 MinimumVersion: "2.3"
 
 Input:
