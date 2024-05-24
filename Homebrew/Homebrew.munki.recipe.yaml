@@ -1,7 +1,7 @@
 Description: Download the latest Homebrew package version from GitHub and import into Munki.
 Identifier: com.github.munki-tvlk.munki.Homebrew
 MinimumVersion: "2.3"
-ParentRecipe: com.github.nstrauss.download.Homebrew
+ParentRecipe: com.github.munki-tvlk.download.Homebrew
 
 Input:
   NAME: Homebrew
