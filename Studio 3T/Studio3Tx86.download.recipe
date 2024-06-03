@@ -9,7 +9,7 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Studio3T</string>
+		<string>Studio3T (Intel)</string>
 		<key>Comment</key>
 		<string>Override ARCH with mac-aarch64 for Apple Silicon Version</string>
 		<key>ARCH</key>
