@@ -5,27 +5,30 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Studio 3T and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.valdore86.munki.Studio3T</string>
+	<string>com.github.munki-tvlk.munki.Studio3T</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>Studio3T</string>
+		<string>Studio3T (Apple)</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>Testing</string>
 			</array>
 			<key>description</key>
 			<string>Studio 3T — is a shell-centric cross-platform open source MongoDB management tool (i.e. Admin GUI)</string>
 			<key>developer</key>
 			<string>3T Software Labs GmbH</string>
 			<key>display_name</key>
-			<string>Studio 3T</string>
+			<string>Studio 3T (Apple)</string>
 			<key>name</key>
 			<string>%NAME%</string>
+ 			<key>supported_architectures</key>
+            		<array>
+                	<string>arm64</string>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
@@ -33,7 +36,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.valdore86.download.Studio3T</string>
+	<string>com.github.munki-tvlk.download.Studio3T</string>
 	<key>Process</key>
 	<array>
 		<dict>
