@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Studio 3T.</string>
 	<key>Identifier</key>
-	<string>com.github.valdore86.download.Studio3T</string>
+	<string>com.github.munki-tvlk.download.Studio3Tx86</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
