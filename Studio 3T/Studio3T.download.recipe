@@ -5,15 +5,15 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Studio 3T.</string>
 	<key>Identifier</key>
-	<string>com.github.valdore86.download.Studio3T</string>
+	<string>com.github.munki-tvlk.download.Studio3T</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Studio3T</string>
+		<string>Studio3T (Apple)</string>
 		<key>Comment</key>
 		<string>Override ARCH with mac-aarch64 for Apple Silicon Version</string>
 		<key>ARCH</key>
-		<string>mac</string>
+		<string>mac-aarch64</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
