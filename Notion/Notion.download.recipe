@@ -10,7 +10,7 @@ x86_64: https://www.notion.so/desktop/mac/download
 arm64: https://www.notion.so/desktop/apple-silicon/download
 </string>
     <key>Identifier</key>
-    <string>com.github.swy.download.Notion</string>
+    <string>com.github.munki-tvlk.download.Notion</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -18,7 +18,7 @@ arm64: https://www.notion.so/desktop/apple-silicon/download
         <key>USER_AGENT</key>
         <string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36</string>
         <key>DOWNLOAD_URL</key>
-        <string>https://www.notion.so/desktop/mac/download</string>
+        <string>https://www.notion.so/desktop/mac-universal/download</string>
     </dict>
     <key>MinimumVersion</key>
     <string>1.0.0</string>
