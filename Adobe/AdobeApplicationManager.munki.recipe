@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads Adobe Application Manager dmg and imports into Munki.</string>
     <key>Identifier</key>
-    <string>com.github.robperc.munki.AdobeApplicationManager</string>
+    <string>com.github.munki-tvlk.munki.AdobeApplicationManager</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
