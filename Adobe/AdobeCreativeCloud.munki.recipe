@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <key>Identifier</key>
-    <string>com.github.munki-tvlk.munki.AdobeCreativeCloudInstaller</string>
+    <string>com.github.munki-tvlk.munki.AdobeCreativeCloudInstallerUniversal</string>
     <key>Input</key>
     <dict>
       <key>MUNKI_REPO_SUBDIR</key>
@@ -38,7 +38,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.munki-tvlk.pkg.AdobeCreativeCloudInstaller</string>
+    <string>com.github.munki-tvlk.pkg.AdobeCreativeCloudInstallerUniversal</string>
     <key>Process</key>
     <array>
       <dict>
