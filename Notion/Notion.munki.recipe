@@ -43,7 +43,7 @@
     <key>MinimumVersion</key>
     <string>1.1</string>
     <key>ParentRecipe</key>
-    <string>com.github.swy.download.Notion</string>
+    <string>com.github.munki-tvlk.download.Notion</string>
     <key>Process</key>
     <array>
         <dict>
