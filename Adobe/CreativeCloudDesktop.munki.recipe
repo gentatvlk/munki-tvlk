@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads Creative Cloud Desktop v2.2 dmg and imports into Munki.</string>
     <key>Identifier</key>
-    <string>com.github.robperc.munki.CreativeCloudDesktop</string>
+    <string>com.github.munki-tvlk.munki.CreativeCloudDesktop</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
