@@ -9,7 +9,7 @@ Process:
   - Processor: GitHubReleasesInfoProvider
     Arguments:
       asset_regex: .*\.pkg
-      github_repo: Homebrew/brew
+      github_repo: https://github.com/Homebrew/brew.git
 
   - Processor: URLDownloader
 
