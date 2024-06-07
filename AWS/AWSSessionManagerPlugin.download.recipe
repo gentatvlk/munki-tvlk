@@ -11,13 +11,13 @@ Use the values between double quotes below for arch specific downloads.
 - "_arm64": arm64/Apple silicon
     </string>
     <key>Identifier</key>
-    <string>com.github.nstrauss.download.AWSSessionManagerPlugin</string>
+    <string>com.github.munki-tvlk.download.AWSSessionManagerPlugin</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>AWSSessionManagerPlugin</string>
+        <string>AWS Session Manager Plugin (Apple)</string>
         <key>DOWNLOAD_ARCH</key>
-        <string></string>
+        <string>_arm64</string>
     </dict>
     <key>MinimumVersion</key>
     <string>1.0</string>
