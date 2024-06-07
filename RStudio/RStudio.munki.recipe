@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Download the latest version of RStudio and imports it into Munki.</string>
     <key>Identifier</key>
-    <string>com.github.joshua-d-miller.autopkg.munki.RStudio</string>
+    <string>com.github.munki-tvlk.munki.RStudio</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
@@ -16,7 +16,7 @@
     	<dict>
     		<key>catalogs</key>
     		<array>
-    			<string>testing</string>
+    			<string>Testing</string>
     		</array>
         <key>category</key>
         <string>Mathematics</string>
@@ -39,7 +39,7 @@
     <key>MinimumVersion</key>
     <string>0.2.9</string>
     <key>ParentRecipe</key>
-    <string>com.github.joshua-d-miller.download.RStudio</string>
+    <string>com.github.munki-tvlk.download.RStudio</string>
     <key>Process</key>
     <array>
         <dict>
