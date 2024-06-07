@@ -1,24 +1,19 @@
-Description: Download the latest Homebrew package version from GitHub.
-Identifier: com.github.munki-tvlk.download.Homebrew
+Description: |
+  Downloads the current script of homebrew.sh.
+Identifier: com.github.munki-tvlk.recipes.download.Homebrew
 MinimumVersion: "2.3"
 
 Input:
   NAME: Homebrew
 
 Process:
-  - Processor: GitHubReleasesInfoProvider
+  - Processor: URLTextSearcher
     Arguments:
-      asset_regex: .*\.pkg
-      github_repo: https://github.com/Homebrew/brew.git
+      re_pattern: (?P<url>\/Honestpuck\/homebrew\.sh\/blob\/master\/(?P<script_name>homebrew-(?P<version>.*?)\.sh))
+      url: https://github.com/Honestpuck/homebrew.sh
 
   - Processor: URLDownloader
+    Arguments:
+      url: https://raw.githubusercontent.com/Honestpuck/homebrew.sh/master/%script_name%
 
   - Processor: EndOfCheckPhase
-
-  - Processor: CodeSignatureVerifier
-    Arguments:
-      input_path: "%pathname%"
-      expected_authority_names: 
-        - "Developer ID Installer: Mike McQuaid (6248TWFRH6)"
-        - Developer ID Certification Authority
-        - Apple Root CA
