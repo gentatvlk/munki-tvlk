@@ -8,7 +8,7 @@
 Use either x86_64 or arm64 for ARCHITECTURE key.
     </string>
     <key>Identifier</key>
-    <string>com.github.nstrauss.munki.AWSSessionManagerPluginx86</string>
+    <string>com.github.mubnki-tvlk.munki.AWSSessionManagerPluginx86</string>
     <key>Input</key>
     <dict>
         <key>ARCHITECTURE</key>
