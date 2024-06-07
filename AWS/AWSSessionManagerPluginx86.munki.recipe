@@ -8,7 +8,7 @@
 Use either x86_64 or arm64 for ARCHITECTURE key.
     </string>
     <key>Identifier</key>
-    <string>com.github.nstrauss.munki.AWSSessionManagerPlugin</string>
+    <string>com.github.nstrauss.munki.AWSSessionManagerPluginx86</string>
     <key>Input</key>
     <dict>
         <key>ARCHITECTURE</key>
@@ -18,12 +18,12 @@ Use either x86_64 or arm64 for ARCHITECTURE key.
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/AWS</string>
         <key>NAME</key>
-        <string>AWSSessionManagerPlugin</string>
+        <string>AWS Session Manager Plugin (Intel)</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
             <array>
-                <string>testing</string>
+                <string>Testing</string>
             </array>
             <key>category</key>
             <string>%MUNKI_CATEGORY%</string>
@@ -32,7 +32,7 @@ Use either x86_64 or arm64 for ARCHITECTURE key.
             <key>developer</key>
             <string>Amazon</string>
             <key>display_name</key>
-            <string>AWS Session Manager plugin</string>
+            <string>AWS Session Manager Plugin (Intel)</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>postinstall_script</key>
@@ -59,7 +59,7 @@ fi
     <key>MinimumVersion</key>
     <string>1.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.nstrauss.download.AWSSessionManagerPlugin</string>
+    <string>com.github.munki-tvlk.download.AWSSessionManagerPluginx86</string>
     <key>Process</key>
     <array>
         <dict>
