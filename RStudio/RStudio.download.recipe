@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest RStudio installer package.</string>
     <key>Identifier</key>
-    <string>com.github.joshua-d-miller.download.RStudio</string>
+    <string>com.github.munbki-tvlk.download.RStudio</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
