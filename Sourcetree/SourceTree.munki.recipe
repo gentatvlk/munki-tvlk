@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the current release version of SourceTree and imports into Munki.</string>
 	<key>Identifier</key>
-	<string>io.github.hjuutilainen.munki.SourceTree</string>
+	<string>com.github.munki-tvlk.munki.SourceTree</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -18,7 +18,7 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>Testing</string>
 			</array>
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
@@ -52,7 +52,7 @@ exit 0
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>io.github.hjuutilainen.download.SourceTree</string>
+	<string>com.github.munki-tvlk.download.SourceTree</string>
 	<key>Process</key>
 	<array>
 		<dict>
