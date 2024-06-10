@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v2.3.1 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of Tableau Prep Builder and imports it into Munki.</string>
+	<key>Identifier</key>
+	<string>https://github.com/gentatvlk/munki-tvlk.git.munki.TableauPrepBuilder</string>
+	<key>Input</key>
+	<dict>
+		<key>APP_FILENAME</key>
+		<string>Tableau Prep Builder 2024.1</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>Tableau Prep Builder</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Tableau Prep Builder Helper (Plugin).app</string>
+				<string>Tableau Prep Builder Helper (GPU).app</string>
+				<string>Tableau Prep Builder Helper (Renderer).app</string>
+				<string>Tableau Prep Builder Helper.app</string>
+				<string>Tableau Prep Builder 2024.1.app</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Combine, shape, and clean your data for analysis.</string>
+			<key>developer</key>
+			<string>Tableau Software, LLC</string>
+			<key>display_name</key>
+			<string>Tableau Prep Builder</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>2.3</string>
+	<key>ParentRecipe</key>
+	<string>https://github.com/gentatvlk/munki-tvlk.git.download.TableauPrepBuilder</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>pkg_path</key>
+				<string>%pathname%</string>
+				<key>repo_subdirectory</key>
+				<string>%MUNKI_REPO_SUBDIR%</string>
+			</dict>
+			<key>Processor</key>
+			<string>MunkiImporter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
