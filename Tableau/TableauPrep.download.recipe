@@ -5,13 +5,13 @@
 	<key>Description</key>
 	<string>Downloads latest Tableau Desktop disk image.</string>
 	<key>Identifier</key>
-	<string>com.github.munki-tvlk.download.tableau</string>
+	<string>com.github.munki-tvlk.download.tableauprep</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>https://www.tableau.com/downloads/desktop/mac</string>
+		<string>https://www.tableau.com/downloads/prep/mac</string>
 		<key>NAME</key>
-		<string>Tableau Desktop</string>
+		<string>Tableau Prep Builder</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.3.1</string>
@@ -42,7 +42,7 @@
 					<string>Apple Root CA</string>
 				</array>
 				<key>input_path</key>
-				<string>%pathname%/Tableau Desktop.pkg</string>
+				<string>%pathname%/Tableau Prep Builder.pkg</string>
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
