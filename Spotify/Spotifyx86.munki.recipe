@@ -29,7 +29,7 @@ https://github.com/autopkg/recipes/issues/196
         <dict>
             <key>catalogs</key>
             <array>
-                <string>Testing</string>
+                <string>Update</string>
             </array>
             <key>description</key>
             <string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
