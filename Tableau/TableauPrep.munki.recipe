@@ -7,11 +7,11 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Tableau Prep Builder and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>https://github.com/gentatvlk/munki-tvlk.git.munki.TableauPrepBuilder</string>
+	<string>com.github.munki-tvlk.munki.tableauprep</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
-		<string>Tableau Prep Builder 2024.1</string>
+		<string>Tableau Prep Builder</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
@@ -28,7 +28,7 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>Testing</string>
 			</array>
 			<key>description</key>
 			<string>Combine, shape, and clean your data for analysis.</string>
@@ -45,7 +45,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>https://github.com/gentatvlk/munki-tvlk.git.download.TableauPrepBuilder</string>
+	<string>com.github.munki-tvlk.download.tableauprep</string>
 	<key>Process</key>
 	<array>
 		<dict>
