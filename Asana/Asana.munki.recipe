@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest version of Asana and imports into Munki</string>
     <key>Identifier</key>
-    <string>com.github.dataJAR-recipes.munki.Asana</string>
+    <string>com.github.munki-tvlk.munki.Asana</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
@@ -16,7 +16,7 @@
         <dict>
             <key>catalogs</key>
             <array>
-                <string>testing</string>
+                <string>Update</string>
             </array>
             <key>description</key>
             <string>Asana’s native desktop app removes distractions so you can focus on what’s important. Just download according to your OS, login with your email on the web, and you’ll be guided to your new favorite app.</string>
@@ -35,7 +35,7 @@
     <key>MinimumVersion</key>
     <string>0.5.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.mikestechshop.download.asana</string>
+    <string>com.github.munki-tvlk.download.asana</string>
     <key>Process</key>
     <array>
     <dict>
