@@ -62,7 +62,7 @@ ARCH: amd64, SUPPORTED_ARCHITECTURE: x86_64
                 <dict>
                     <key>supported_architectures</key>
                     <array>
-                        <string>%SUPPORTED_ARCHITECTURE%</string>
+                        <string>x86_64</string>
                     </array>
                     <key>version</key>
                     <string>%version%</string>
