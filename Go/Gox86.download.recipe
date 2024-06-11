@@ -18,13 +18,13 @@ For Intel:
 ARCH: amd64, SUPPORTED_ARCHITECTURE: x86_64
 </string>
     <key>Identifier</key>
-    <string>com.github.timsutton.download.Go</string>
+    <string>com.github.munki-tvlk.download.Go</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Go</string>
+        <string>Go (Intel)</string>
         <key>ARCH</key>
-        <string>arm64</string>
+        <string>x86_64</string>
         <key>RE_PATTERN</key>
         <string>href="(?P&lt;href&gt;\/dl.*?go(?P&lt;version&gt;.*?)\.darwin-%ARCH%.pkg)"</string>
     </dict>
