@@ -24,7 +24,7 @@ ARCH: amd64, SUPPORTED_ARCHITECTURE: x86_64
         <key>NAME</key>
         <string>Go (Intel)</string>
         <key>ARCH</key>
-        <string>x86_64</string>
+        <string>amd64</string>
         <key>RE_PATTERN</key>
         <string>href="(?P&lt;href&gt;\/dl.*?go(?P&lt;version&gt;.*?)\.darwin-%ARCH%.pkg)"</string>
     </dict>
