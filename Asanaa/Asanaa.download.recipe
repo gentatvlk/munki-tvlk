@@ -11,7 +11,7 @@ x86_64: https://desktop-downloads.asana.com/darwin_x64/prod/latest/Asana.dmg
 universal (default): https://desktop-downloads.asana.com/darwin_universal/prod/latest/Asana.dmg
     </string>
     <key>Identifier</key>
-    <string>com.github.munki-tvlk.download.asana</string>
+    <string>com.github.munki-tvlk.download.asanaa</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
