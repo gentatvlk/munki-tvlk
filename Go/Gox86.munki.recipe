@@ -22,11 +22,11 @@ For Intel:
 ARCH: amd64, SUPPORTED_ARCHITECTURE: x86_64
 </string>
     <key>Identifier</key>
-    <string>com.github.timsutton.munki.Go</string>
+    <string>com.github.munki-tvlk.munki.Gox86</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Go</string>
+        <string>Go (Intel)</string>
         <key>SUPPORTED_ARCHITECTURE</key>
         <string>arm64</string>
         <key>MUNKI_REPO_SUBDIR</key>
@@ -35,12 +35,12 @@ ARCH: amd64, SUPPORTED_ARCHITECTURE: x86_64
         <dict>
             <key>catalogs</key>
             <array>
-                <string>testing</string>
+                <string>Testing</string>
             </array>
             <key>description</key>
             <string>Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</string>
             <key>display_name</key>
-            <string>Go Programming Language</string>
+            <string>Go Programming Language (Intel)</string>
             <key>minimum_os_version</key>
             <string>10.15</string>
             <key>name</key>
@@ -52,7 +52,7 @@ ARCH: amd64, SUPPORTED_ARCHITECTURE: x86_64
     <key>MinimumVersion</key>
     <string>0.2.9</string>
     <key>ParentRecipe</key>
-    <string>com.github.timsutton.download.Go</string>
+    <string>com.github.munki-tvlk.download.Gox86</string>
     <key>Process</key>
     <array>
         <dict>
