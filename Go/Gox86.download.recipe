@@ -18,7 +18,7 @@ For Intel:
 ARCH: amd64, SUPPORTED_ARCHITECTURE: x86_64
 </string>
     <key>Identifier</key>
-    <string>com.github.munki-tvlk.download.Go</string>
+    <string>com.github.munki-tvlk.download.Gox86</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
