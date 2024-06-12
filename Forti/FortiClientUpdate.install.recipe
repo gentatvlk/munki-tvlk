@@ -5,13 +5,13 @@
 		<key>Description</key>
 		<string>Installs the latest version of FortiClient.</string>
 		<key>Identifier</key>
-		<string>com.github.hutr.install.FortiClientUpdate</string>
+		<string>com.github.munki-tvlk.install.FortiClientUpdate</string>
 		<key>Input</key>
 		<dict/>
 		<key>MinimumVersion</key>
 		<string>0.4.0</string>
 		<key>ParentRecipe</key>
-		<string>com.github.hutr.download.FortiClientUpdate</string>
+		<string>com.github.munki-tvlk.download.FortiClientUpdate</string>
 		<key>Process</key>
 		<array>
 			<dict>
