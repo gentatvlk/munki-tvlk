@@ -5,13 +5,13 @@
 	<key>Description</key>
 	<string>Downloads latest Google Drive disk image.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg.munki-tvlk.download.gdrive</string>
+	<string>com.github.munki-tvlk.download.gdrive</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
 		<string>GoogleDrive</string>
 		<key>DOWNLOAD_URL</key>
-		<string>https://dl.google.com/drive/InstallBackupAndSync.dmg</string>
+		<string>https://dl.google.com/drive-file-stream/GoogleDrive.dmg</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
