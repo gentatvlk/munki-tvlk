@@ -5,7 +5,7 @@
 		<key>Description</key>
 		<string>Downloads the latest version of FortiClient.</string>
 		<key>Identifier</key>
-		<string>com.github.hutr.download.FortiClientUpdate</string>
+		<string>com.github.munki-tvlk.download.FortiClientUpdate</string>
 		<key>Input</key>
 		<dict>
 			<key>NAME</key>
