@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Google Drive disk image. Note Google Drive File Stream was rebranded to Google Drive for desktop, and this recipe updated to reflect the name change.</string>
     <key>Identifier</key>
-    <string>com.github.nstrauss.download.GoogleDrive</string>
+    <string>com.github.munki-tvlk.download.gdrive</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
