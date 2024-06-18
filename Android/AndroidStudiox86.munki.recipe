@@ -9,18 +9,18 @@ This recipe is dependent on Sam Novak's Android Studio recipe.  To add his repo:
 
 autopkg repo-add novaksam-recipes</string>
 	<key>Identifier</key>
-	<string>com.github.foigus.munki.AndroidStudio</string>
+	<string>com.github.munki-tvlk.munki.AndroidStudiox86</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/android</string>
 		<key>NAME</key>
-		<string>AndroidStudio</string>
+		<string>Android Studio (Intel)</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>development-android-AndroidStudio</string>
+				<string>Testing</string>
 			</array>
 			<key>category</key>
 			<string>Development</string>
@@ -29,7 +29,7 @@ autopkg repo-add novaksam-recipes</string>
 			<key>developer</key>
 			<string>Google</string>
 			<key>display_name</key>
-			<string>Android Studio</string>
+			<string>Android Studio (Intel)</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>supported_architectures</key>
@@ -43,7 +43,7 @@ autopkg repo-add novaksam-recipes</string>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.novaksam.download.AndroidStudio</string>
+	<string>com.github.munki-tvlk.download.AndroidStudiox86</string>
 	<key>Process</key>
 	<array>
 		<dict>
