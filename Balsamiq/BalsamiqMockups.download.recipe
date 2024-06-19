@@ -5,11 +5,11 @@
 	<key>Description</key>
 	<string>Downloads latest Balsamic Mockups disk image.</string>
 	<key>Identifier</key>
-	<string>com.github.thenikola.download.BalsamicMockups</string>
+	<string>com.github.munki-tvlk.download.BalsamicMockups</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>BalsamiqMockups</string>
+		<string>Balsamiq Mockups</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
