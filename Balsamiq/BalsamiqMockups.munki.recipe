@@ -5,18 +5,18 @@
 	<key>Description</key>
 	<string>Downloads the latest Balsamiq Mockups disk image and imports into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.thenikola.munki.BalsamiqMockups</string>
+	<string>com.github.munki-tvlk.munki.BalsamiqMockups</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>Web Development</string>
 		<key>NAME</key>
-		<string>BalsamiqMockups</string>
+		<string>Balsamiq Mockups</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>Testing</string>
 			</array>
 			<key>category</key>
 			<string>Web Development</string>
@@ -38,7 +38,7 @@ that you'll make sense of them later.</string>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.thenikola.download.BalsamicMockups</string>
+	<string>com.github.munki-tvlk.download.BalsamicMockups</string>
 	<key>Process</key>
 	<array>
 		<dict>
