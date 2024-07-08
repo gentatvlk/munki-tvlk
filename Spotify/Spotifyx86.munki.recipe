@@ -34,7 +34,7 @@ https://github.com/autopkg/recipes/issues/196
             <key>description</key>
             <string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
             <key>display_name</key>
-            <string>Spotify (Intel)</string>
+            <string>Spotify</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>postinstall_script</key>
