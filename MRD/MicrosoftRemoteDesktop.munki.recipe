@@ -5,13 +5,13 @@
 	<key>Description</key>
 	<string>Downloads the latest Microsoft Remote Desktop installer pkg and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.foigus.munki.microsoftremotedesktop</string>
+	<string>com.github.munki-tvlk.munki.microsoftremotedesktop</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/microsoft</string>
 		<key>NAME</key>
-		<string>MicrosoftRemoteDesktop</string>
+		<string>Microsoft Remote Desktop</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
@@ -20,7 +20,7 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>development-microsoft-MicrosoftRemoteDesktop</string>
+				<string>Testing</string>
 			</array>
 			<key>category</key>
 			<string>Utility</string>
@@ -41,7 +41,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.rtrouton.download.microsoftremotedesktop</string>
+	<string>com.github.munki-tvlk.download.microsoftremotedesktop</string>
 	<key>Process</key>
 	<array>
 		<dict>
