@@ -5,7 +5,7 @@
       <key>Description</key>
       <string>Downloads the latest Microsoft Remote Desktop installer pkg.</string>
       <key>Identifier</key>
-      <string>com.github.rtrouton.download.microsoftremotedesktop</string>
+      <string>com.github.munki-tvlk.download.microsoftremotedesktop</string>
       <key>MinimumVersion</key>
       <string>1.0.0</string>
       <key>Input</key>
