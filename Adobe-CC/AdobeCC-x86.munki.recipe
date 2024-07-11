@@ -1,34 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>Attribution</key>
-    <dict>
-      <key>Copyright</key>
-      <string>University of Oxford 2016</string>
-      <key>Author</key>
-      <dict>
-        <key>Name</key>
-        <string>Ben Goodstein</string>
-        <key>Email</key>
-        <string>ben.goodstein at it.ox.ac.uk</string>
-        <key>Github</key>
-        <string>fuzzylogiq</string>
-      </dict>
-    </dict>
-    <key>Identifier</key>
-    <string>uk.ac.ox.orchard.munki.AdobeCreativeCloudInstaller</string>
+<key>Identifier</key>
+    <string>com.github.munki-tvlk.munki.AdobeCC-x86</string>
     <key>Input</key>
     <dict>
       <key>MUNKI_REPO_SUBDIR</key>
       <string>Adobe_CC</string>
       <key>NAME</key>
-      <string>Creative Cloud Installer</string>
+      <string>Adobe CC (Intel)</string>
       <key>pkginfo</key>
       <dict>
         <key>catalogs</key>
         <array>
-          <string>unstable</string>
+          <string>Testing</string>
         </array>
         <key>category</key>
         <string>Creative Cloud</string>
@@ -37,7 +22,7 @@
         <key>developer</key>
         <string>Adobe</string>
         <key>display_name</key>
-        <string>Creative Cloud Installer</string>
+        <string>Adobe CC</string>
         <key>name</key>
         <string>Creative_Cloud_Installer</string>
 		<key>supported_architectures</key>
@@ -57,7 +42,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.rtrouton.pkg.AdobeCreativeCloudInstaller</string>
+    <string>com.github.munki-tvlk.pkg.AdobeCC-x86</string>
     <key>Process</key>
     <array>
       <dict>
