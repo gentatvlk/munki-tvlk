@@ -5,17 +5,15 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Adobe's Creative Cloud Desktop App Installer for Apple Silicon</string>
 	<key>Identifier</key>
-	<string>com.github.rtrouton.download.AdobeCreativeCloudInstallerAppleSilicon</string>
+	<string>com.github.munki-tvlk.download.AdobeCC-arm64</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Creative Cloud Installer</string>
+		<string>Adobe CC (Apple)</string>
 		<key>VENDOR</key>
 		<string>Adobe</string>
 		<key>SOFTWARETITLE</key>
-		<string>Creative Cloud Installer</string>
-		<key>NAMEWITHOUTSPACES</key>
-		<string>CreativeCloudInstaller</string>
+		<string>Adobe CC</string>
 		<key>SEARCH_URL</key>
 		<string>https://helpx.adobe.com/download-install/kb/creative-cloud-desktop-app-download.html</string>
 		<key>SEARCH_PATTERN</key>
