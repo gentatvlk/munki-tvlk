@@ -5,7 +5,7 @@
       <key>Description</key>
       <string>Downloads the latest Microsoft Office 365 Business Pro Suite SKU-less installer package.</string>
       <key>Identifier</key>
-      <string>com.github.rtrouton.download.MicrosoftOffice365BusinessProSuite</string>
+      <string>com.github.munki-tvlk.download.Office365</string>
       <key>Input</key>
       <dict>
          <key>NAME</key>
