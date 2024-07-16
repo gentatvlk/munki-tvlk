@@ -5,16 +5,16 @@
 	<key>Description</key>
 	<string>Downloads latest version of Python3 and imports into a Munki repo.</string>
 	<key>Identifier</key>
-	<string>com.github.scriptingosx.munki.Python3</string>
+	<string>com.github.munki-tvlk.munki.Python3</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>developer</string>
+		<string>apps/%NAME%</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>Testing</string>
 			</array>
 			<key>description</key>
 			<string>Python is a programming language that lets you work quickly and integrate systems more effectively.</string>
@@ -29,7 +29,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.scriptingosx.pkg.Python3</string>
+	<string>com.github.munki-tvlk.pkg.Python3</string>
 	<key>Process</key>
 	<array>
 		<dict>
