@@ -5,11 +5,11 @@
 	<key>Description</key>
 	<string>Downloads latest version of Python3.</string>
 	<key>Identifier</key>
-	<string>com.github.scriptingosx.download.Python3</string>
+	<string>com.github.munki-tvlk.download.Python3</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Python3</string>
+		<string>Python 3</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.3.1</string>
