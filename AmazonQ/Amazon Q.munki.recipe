@@ -18,7 +18,7 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>Testing</string>
 			</array>
 			<key>description</key>
 			<string>Vectorizer and Vector Editor.</string>
