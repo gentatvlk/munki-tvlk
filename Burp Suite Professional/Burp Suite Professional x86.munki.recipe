@@ -48,7 +48,7 @@ Use it to automate repetitive testing tasks - then dig deeper with its expert-de
     <key>MinimumVersion</key>
     <string>1.1</string>
     <key>ParentRecipe</key>
-    <string>com.github.dataJAR-recipes.download.Burp Suite Professional</string>
+    <string>com.github.munki-tvlk.download.Burp Suite Professional</string>
     <key>Process</key>
     <array>
         <dict>
