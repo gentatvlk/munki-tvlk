@@ -5,11 +5,11 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Microsoft Edge for the specified branch.</string>
 	<key>Identifier</key>
-	<string>com.github.n8felton.download.MicrosoftEdge</string>
+	<string>com.github.munki-tvlk.download.MicrosoftEdge</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>MicrosoftEdge</string>
+		<string>Microsoft Edge</string>
 		<key>CHANNEL</key>
 		<string></string>
 	</dict>
@@ -23,7 +23,7 @@
 		</dict>
 		<dict>
 			<key>Processor</key>
-			<string>com.github.n8felton.shared/RemoteFilenameFinder</string>
+			<string>com.github.munki-tvlk.shared/RemoteFilenameFinder</string>
 		</dict>
 		<dict>
 			<key>Processor</key>
