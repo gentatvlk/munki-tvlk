@@ -23,10 +23,6 @@
 		</dict>
 		<dict>
 			<key>Processor</key>
-			<string>com.github.munki-tvlk.SharedProcessors/RemoteFilenameFinder</string>
-		</dict>
-		<dict>
-			<key>Processor</key>
 			<string>URLDownloader</string>
 		</dict>
 		<dict>
