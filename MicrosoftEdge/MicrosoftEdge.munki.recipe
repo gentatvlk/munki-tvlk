@@ -7,7 +7,7 @@
 
 Set the DERIVE_MIN_OS variable to a non-empty string to set the minimum_os_version via MunkiInstallsItemsCreator. This requires a minimum AutoPkg version of 2.7 please update if you're not already running it.</string>
     <key>Identifier</key>
-    <string>com.github.n8felton.munki.MicrosoftEdge</string>
+    <string>com.github.munki-tvlk.munki.MicrosoftEdge</string>
     <key>Input</key>
     <dict>
         <key>DERIVE_MIN_OS</key>
@@ -17,14 +17,14 @@ Set the DERIVE_MIN_OS variable to a non-empty string to set the minimum_os_versi
         <key>MUNKI_CATEGORY</key>
         <string>Productivity</string>
         <key>NAME</key>
-        <string>MicrosoftEdge</string>
+        <string>Microsoft Edge</string>
         <key>CHANNEL</key>
         <string></string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
             <array>
-                <string>testing</string>
+                <string>Testing</string>
             </array>
             <key>category</key>
             <string>%MUNKI_CATEGORY%</string>
@@ -43,7 +43,7 @@ Set the DERIVE_MIN_OS variable to a non-empty string to set the minimum_os_versi
     <key>MinimumVersion</key>
     <string>2.7</string>
     <key>ParentRecipe</key>
-    <string>com.github.n8felton.download.MicrosoftEdge</string>
+    <string>com.github.munki-tvlk.download.MicrosoftEdge</string>
     <key>Process</key>
     <array>
         <dict>
