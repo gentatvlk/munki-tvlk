@@ -6,7 +6,7 @@
         <key>Description</key>
         <string>Extract Xcode from a XIP. Requires passing in a XIP containing Xcode.</string>
         <key>Identifier</key>
-        <string>com.github.nmcspadden.extract.xcode</string>
+        <string>com.github.munki-tvlk.extract.xcode</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
@@ -17,7 +17,7 @@
         <key>MinimumVersion</key>
         <string>1.0.4</string>
         <key>ParentRecipe</key>
-        <string>com.github.nmcspadden.download.xcode</string>
+        <string>com.github.munki-tvlk.download.xcode</string>
         <key>Process</key>
         <array>
             <dict>
