@@ -7,11 +7,11 @@
         <key>Description</key>
         <string>Download, extract, and import Xcode as a unique entry into Munki. You must override the APPLE_ID and one of PASSWORD or PASSWORD_FILE.</string>
         <key>Identifier</key>
-        <string>com.github.nmcspadden.munki.xcode_versioned</string>
+        <string>com.github.munki-tvlk.munki.xcode_versioned</string>
         <key>Input</key>
         <dict>
             <key>APPLE_ID</key>
-            <string>dev@domain.com</string>
+            <string>it-genta.syaputra@traveloka.com</string>
             <key>DESTINATION_APP_NAME</key>
             <string>Xcode.app</string>
             <key>ICON_NAME</key>
@@ -27,7 +27,7 @@
             <dict>
                 <key>catalogs</key>
                 <array>
-                    <string>testing</string>
+                    <string>Testing</string>
                 </array>
                 <key>description</key>
                 <string>Xcode</string>
@@ -42,7 +42,7 @@
         <key>MinimumVersion</key>
         <string>1.0.4</string>
         <key>ParentRecipe</key>
-        <string>com.github.nmcspadden.extract.xcode</string>
+        <string>com.github.munki-tvlk.extract.xcode</string>
         <key>Process</key>
         <array>
             <dict>
