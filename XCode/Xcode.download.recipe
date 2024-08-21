@@ -14,7 +14,7 @@
             <key>APPLE_ID</key>
             <string>it-genta.syaputra@traveloka.com</string>
             <key>PASSWORD_FILE</key>
-            <string>sectret.txt</string>
+            <string>com.github.munki-tvlk.txt.sectret</string>
             <key>NOSKIP</key>
             <string></string>
             <key>PASSWORD</key>
